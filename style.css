@@ -1,3 +1,48 @@
-h1 {
-    color: red;
+body {
+    width: 800px;
+    margin: auto;
+
+}
+
+header {
+    background-color: cadetblue;
+    color: white;
+    height: 150px;
+    font-size: 30px;
+}
+
+header a {
+    color: white;
+}
+
+.nav-menu {
+    list-style: none;
+    display: inline;    
+}
+
+.nav-menu li {
+    display: inline;
+}
+
+.video-play {
+    float: left;
+    width: 200px;
+    text-align: center;
+}
+
+.video-image {
+    margin-left: 200px;
+}
+
+.best-movie {
+    width: 100%;
+    border: 5px solid black;
+}
+
+.video-play button {
+    background-color: red;
+    color: white;
+    font-size: 40px;
+    border-radius: 5px;
+
 }
