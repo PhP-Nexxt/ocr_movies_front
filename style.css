@@ -49,53 +49,72 @@ header a {
 
 }
 
-/*css slider*/ 
-.slider {
-    width: 100%;
-    max-width: 800px;
-    height: 350px;
+/*Carousel Css*/
+.carousel {
+    margin: 20px;
+} 
+
+.carousel__view {
+    width: calc((200px*5) + 22px);
+    height: 300px;
+    background: white;
+    box-shadow: 0 1px 8px #888888;
+    margin: auto;
+    overflow: hidden;
     position: relative;
-    /* overflow: hidden; */
-  }
-  
-  .slide {
-    width: 100%;
-    max-width: 800px;
-    height: 350px;
+}
+
+.carousel__control {
     position: absolute;
-    transition: all 0.5s;
-  }
-  
-  .slide img {
-    width: 100%;
+    z-index: 1;
+    height: 300px;
+    width: 70px;
+    background-color: rgba(221, 221, 221, 0.5);
+    transition: background-color 0.3s;
+    display: table;
+}
+
+.carousel__control .icon {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.carousel__control:hover {
+    background-color: rgba(221, 221, 221, 0.8);
+}
+
+.carousel__control:first-of-type {
+    left: 0;
+}
+.carousel__control:last-of-type {
+    right: 0;
+}
+
+.product-list {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    transition: transform 0.3s;
+    transform: translateX(0px);
+    list-style: none;
+    height: 300px;
+}
+
+.product-list__item {
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+}
+
+.product {
+    display: table;
     height: 100%;
-    object-fit: cover;
-  }
-  
-  .btn {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    padding: 10px;
-    border: none;
-    border-radius: 50%;
-    z-index: 10px;
-    cursor: pointer;
-    background-color: #fff;
-    font-size: 18px;
-  }
-  
-  .btn:active {
-    transform: scale(1.1);
-  }
-  
-  .btn-prev {
-    top: 45%;
-    left: 2%;
-  }
-  
-  .btn-next {
-    top: 45%;
-    right: 2%;
-  }
-  
+    width: 100%;
+}
+
+.product span {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
