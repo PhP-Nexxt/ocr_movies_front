@@ -114,23 +114,23 @@ const displayMoviesByGenre = function(genre, genreArticle) {
     carouselItem.appendChild(carouselViewItem);
     genreArticle.appendChild(carouselItem);
 }
-
+// Infos PopUp
 const displayModalMovie = async function(movieID) {
     const movie = await fetchMovie(movieID);
     const modal = document.getElementById("modal");
     document.getElementById("movie-picture").src = movie["image_url"];
-    document.getElementById("movie-title").innerText = movie["title"];
-    document.getElementById("movie-genre").innerText = movie["genres"];
-    document.getElementById("movie-release-date").innerText = movie["date_published"];
-    document.getElementById("movie-rated").innerText = movie["avg_vote"];
-    document.getElementById("movie-score").innerText = movie["imdb_score"];
-    document.getElementById("movie-director").innerText = movie["directors"];
-    document.getElementById("movie-actors-list").innerText = movie["actors"];
-    document.getElementById("movie-duration").innerText = movie["duration"];
-    document.getElementById("movie-country").innerText = movie["countries"];
-    document.getElementById("movie-box-office-score").innerText = movie["worldwide_gross_income"];
+    document.getElementById("movie-title").innerText = `Titre : ${movie["title"]}`;
+    document.getElementById("movie-genre").innerText = `Genre : ${movie["genres"]}`;
+    document.getElementById("movie-release-date").innerText = `Date de sortie : ${movie["date_published"]}`;
+    document.getElementById("movie-rated").innerText = `Rated : ${movie["avg_vote"]}`;
+    document.getElementById("movie-score").innerText = `Score imdb : ${movie["imdb_score"]}`;
+    document.getElementById("movie-director").innerText = `Réalisateur : ${movie["directors"]}`;
+    document.getElementById("movie-actors-list").innerText = `Acteurs : ${movie["actors"]}`;
+    document.getElementById("movie-duration").innerText = `Durée : ${movie["duration"]}`;
+    document.getElementById("movie-country").innerText = `Pays : ${movie["countries"]}`;
+    document.getElementById("movie-box-office-score").innerText = `Sore au box Office : ${movie["worldwide_gross_income"]}`;
 
-    document.getElementById("movie-summary").innerText = movie["long_description"];
+    document.getElementById("movie-summary").innerText = `Résumé : ${movie["long_description"]}`;
     modal.style.display = "block";
 }
 
