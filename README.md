@@ -11,8 +11,6 @@ Copy the `index.html` `style.css` `vanilla.js` files from this repository to you
 
 Copy the local path of the `index.html` file in your browser
 
-Translated with www.DeepL.com/Translator (free version)
-
 
 # Utilisation d' Ocr_movies_front
 
