@@ -1,7 +1,7 @@
 # Utilisation d' Ocr_movies_front
 
 installer prélablement en local les éléments contenus dans le repository suivant :
-`https://github.com/PhP-Nexxt/ocr_devapp_pyth_6`
+`https://github.com/PhP-Nexxt/ocr_devapp_pyth_6` et suivre les instructions d'installation
 Activer l'environnement virtuel, puis lancer le server en local en utilisant la commande 
 `python3 manage.py runserver` dans le terminal
 
