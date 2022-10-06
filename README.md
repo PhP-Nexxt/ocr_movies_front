@@ -7,7 +7,7 @@ Activer l'environnement virtuel, puis lancer le server en local en utilisant la 
 `python3 manage.py runserver` dans le terminal
 
 
-Copier les fichiers `index.html` style.css vanilla.js du présent repository sur votre ordinateur
+Copier les fichiers `index.html` `style.css` `vanilla.js` du présent repository sur votre ordinateur
 Copier le lien local du fichier `index.html` dans votre navigateur
 
 
