@@ -8,6 +8,7 @@ Activer l'environnement virtuel, puis lancer le server en local en utilisant la 
 
 
 Copier les fichiers `index.html` `style.css` `vanilla.js` du présent repository sur votre ordinateur
+
 Copier le lien local du fichier `index.html` dans votre navigateur
 
 
