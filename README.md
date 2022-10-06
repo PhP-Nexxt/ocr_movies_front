@@ -4,7 +4,7 @@ install locally the elements contained in the following repository:
 `https://github.com/PhP-Nexxt/ocr_devapp_pyth_6` and follow the installation instructions
 
 Activate the virtual environment, then launch the local server using the command 
-python3 manage.py runserver` in the terminal
+`python3 manage.py runserver` in the terminal
 
 
 Copy the `index.html` `style.css` `vanilla.js` files from this repository to your computer
