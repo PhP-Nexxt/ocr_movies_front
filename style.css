@@ -1,4 +1,4 @@
-body {
+body { 
     width: 800px;
     margin: auto;
     height: 100vh;
@@ -169,13 +169,13 @@ header a {
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
   }
-  
+
   /* The Close Button */
   .close {
     color: #aaa;
     float: right;
     font-size: 28px;
-    font-weight: bold;
+
   }
   
   .close:hover,
